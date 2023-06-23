@@ -1,0 +1,6 @@
+Id: 0
+UserId: 2
+ProductDate2020/1/30
+Products[Name: EyelinerBarcode: 000004 Supplier: Supplier2 Cost: 8000.0, Name: LipsticBarcode: 000001 Supplier: Supplier2 Cost: 10000.0]
+Amounts: [30, 10]
+Total: 0
