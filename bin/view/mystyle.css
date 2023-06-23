@@ -1,0 +1,44 @@
+.button {
+    -fx-background-color: 
+        #ffe4e1,
+        linear-gradient(#ffe4e1 50%, white 100%),
+        radial-gradient(center 50% -40%, radius 200%, #ffe4e1 45%, rgba(230,230,230,0) 50%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+.button:hover {
+    -fx-background-color: 
+        #ffe4b5,
+        linear-gradient(#ffe4b5 70%, white 100%),
+        radial-gradient(center 50% -40%, radius 200%, #ffe4b5 45%, rgba(210,210,210,0) 50%);
+}
+
+.login-but{
+    -fx-background-color: bisque;
+    -fx-background-radius: 0,0,0,0;
+    -fx-padding: 2 20 2 20;
+    -fx-text-fill: black;
+    -fx-border-width: 0px;
+    -fx-font-size: 12px;
+}
+.login-but:hover{
+    -fx-background-color: wheat;
+}
+
+.cancel{
+    -fx-background-color: bisque;
+     -fx-text-fill: black;
+}
+.cancel:hover{
+    -fx-background-color: wheat;
+}
+
+.bluebox{
+	-fx-background-color: aliceblue;
+}
+
+.titledpane{
+	-fx-font-size:16px;
+}
